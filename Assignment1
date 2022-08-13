@@ -1,0 +1,25 @@
+What is the difference between HTTP1 and HPPT2??
+Before answering the above, it is necessary to understand what HTTP stands for and what it does. HTTP stands for Hypertext Transfer Protocol; it transfers data inside the World Wide Web.
+There are other Protocols like HTTPS, FTP, FTPS, SFPT, SCP etc...
+Okay now let me come to what are the primary differences in between the HPPT1 and HTTP2, in simple words HTTP2 is an advanced and an evolved version among the two with better functionalities and performance.
+1) Blocking and Multiplexing
+In HPPT1.1 the file is transferred using TCP. The Textual file is transferred as such and then it gets executed, in this case the process gets blocked if there is an error.
+In HPPT2 the data is transferred using SPDY, this converts the file category in to binary signals. As the file is divided and send the failure of one operation will not block the whole process and it is comparatively more efficient in terms of speed
+2) The PUSH difference 
+In HTTP1 there is one request and response between the client and the server.
+But in HPPT2 the protocol allows for push server that is the server can push for an additional response implicitly.
+3) Header Compression 
+In HTTP2 the file compresses the files into small compressed packets saving few spaces. These are called HPACKS.
+
+
+
+
+
+
+
+Object and its internal representation
+
+An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method. In addition to objects that are predefined in the browser, you can define your own objects
+Key:Value
+Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. 
+There are certain predefined Objects in JavaScript and we can also create a new object with Key : Value  based our requirements.
